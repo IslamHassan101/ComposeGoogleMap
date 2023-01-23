@@ -68,7 +68,7 @@ class MainActivity : ComponentActivity() {
             LocationServices.getFusedLocationProviderClient(context)
         Places.initialize(
             context.applicationContext,
-            "AIzaSyCAXkkqwz1pckCD_Qb_AEIyJcR85Y1F9bY"
+            ""
         )
         viewModel.placesClient = Places.createClient(context)
         viewModel.geoCoder = Geocoder(context)
